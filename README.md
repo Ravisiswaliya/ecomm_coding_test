@@ -1,33 +1,34 @@
 # ecomm_coding_test
 
-# create a virtualenv
+# Tech
+Tech which is used to achieve this:
+React
+Django
+Sqlite
+Bootstrap
+
+
+#Setup Instruction
+Node js and Python3 is used for this project
+
+Install the dependencies and start server
+
 virtualenv venv
-
-# activate environment
 source venv/bin/activate
-
-# install all requirements
-
 pip3 install -r requirements.txt
-
-# run django project
+cd backend
 python3 manage.py makemigrations
 python3 manage.py migrate
 python3 manage.py runserver
 
-# setup for react 
- go to frontend directory
- 
-npm install
+Django Admin will be accessible at 127.0.0.1:8000
 
-npm start
+# credentials
+franchise credentials
 
-
-
-# franchise credentials
 email - admin@gmail.com
 password - user1234
 
-# seller credentials
+seller  credentials
 email - seller5@gmail.com
 password - user1234
